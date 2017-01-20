@@ -391,4 +391,8 @@ Add a comment to this line
          For this time after the screen turns on, the Power Manager
          will not debounce light sensor readings -->
     <integer name="config_lightSensorWarmupTime">200</integer>
+
+    <!-- FP trustled limits the number to 4. -->
+    <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
+
 </resources>
