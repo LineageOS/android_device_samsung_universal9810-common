@@ -27,3 +27,12 @@ service argos-daemon /system/bin/true
 
 service ExynosHWCServiceTW /system/bin/true
     disabled
+
+service proca /system/bin/true
+    disabled
+
+service secure_storage /system/bin/true
+    disabled
+
+service vaultkeeper /system/bin/true
+    disabled
