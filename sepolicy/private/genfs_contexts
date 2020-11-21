@@ -16,3 +16,6 @@ genfscon sysfs /devices/virtual/sec/sec_key                                     
 
 # RTC
 genfscon sysfs /devices/platform/141c0000.speedy/i2c-15/15-0000/s2mps18-rtc/rtc   u:object_r:sysfs_rtc:s0
+
+# Touch
+genfscon sysfs /devices/virtual/sec/tsp     u:object_r:sysfs_sec_tsp:s0
