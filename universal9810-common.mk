@@ -61,6 +61,7 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
+	fstab.zram \
     init.samsung.rc \
     init.usb_accessory.rc
 
